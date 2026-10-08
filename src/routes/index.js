@@ -5,9 +5,11 @@
 const contohRouter = require("./contoh");
 const bukuRouter = require("./buku");
 const axiosRouter = require("./contohAxios");
+const userRoutes = require("./userRoutes"); // Import file user.js milikm
 
 module.exports = {
   contohRouter,
   bukuRouter,
   axiosRouter,
+  userRoutes
 };
